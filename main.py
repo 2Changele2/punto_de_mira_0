@@ -5,7 +5,7 @@ def punto_de_mira(lista_de_coordenadas):
     for coordenadas in lista_de_coordenadas:
         plt.plot ([0],[1], 'bo')
 
-    plt.plot(0, 0, 'k+')
+    plt.plot(0, 1, 'k+')
     plt.ylabel('Y')
     plt.xlabel('X')
     plt.show()
